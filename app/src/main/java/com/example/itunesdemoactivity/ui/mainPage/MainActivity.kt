@@ -78,6 +78,8 @@ class MainActivity : AppCompatActivity(), ItunesAdapter.IClickListener {
     }
 
     private fun playAudio(url: String) {
+
+        // TODO: 我要加搜尋loading
         if (mediaPlayer.isPlaying) {
             mediaPlayer.stop()
             mediaPlayer.reset()
