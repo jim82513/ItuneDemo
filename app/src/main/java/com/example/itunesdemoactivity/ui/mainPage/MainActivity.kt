@@ -15,7 +15,6 @@ import com.example.itunesdemoactivity.databinding.ActivityMainBinding
 import com.example.itunesdemoactivity.ui.mainPage.ui.ItunesAdapter
 import dagger.hilt.android.AndroidEntryPoint
 import java.io.IOException
-
 import android.media.AudioManager
 
 
